@@ -243,7 +243,7 @@ select {
  *    `input` and others.
  */
 button,
-html input[type="button"],
+html input[type="usa/button"],
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
@@ -657,7 +657,7 @@ body {
 .usa-button:visited,
 .usa-button-primary:visited,
 button,
-[type="button"],
+[type="usa/button"],
 [type="submit"],
 [type="reset"],
 [type="image"] {
@@ -687,7 +687,7 @@ button,
     .usa-button:visited,
     .usa-button-primary:visited,
     button,
-    [type="button"],
+    [type="usa/button"],
     [type="submit"],
     [type="reset"],
     [type="image"] {
@@ -701,8 +701,8 @@ button,
   .usa-button-primary:visited.usa-button-hover,
   button:hover,
   button.usa-button-hover,
-  [type="button"]:hover,
-  [type="button"].usa-button-hover,
+  [type="usa/button"]:hover,
+  [type="usa/button"].usa-button-hover,
   [type="submit"]:hover,
   [type="submit"].usa-button-hover,
   [type="reset"]:hover,
@@ -722,8 +722,8 @@ button,
   .usa-button-primary:visited.usa-button-focus,
   button:focus,
   button.usa-button-focus,
-  [type="button"]:focus,
-  [type="button"].usa-button-focus,
+  [type="usa/button"]:focus,
+  [type="usa/button"].usa-button-focus,
   [type="submit"]:focus,
   [type="submit"].usa-button-focus,
   [type="reset"]:focus,
@@ -740,8 +740,8 @@ button,
   .usa-button-primary:visited.usa-button-active,
   button:active,
   button.usa-button-active,
-  [type="button"]:active,
-  [type="button"].usa-button-active,
+  [type="usa/button"]:active,
+  [type="usa/button"].usa-button-active,
   [type="submit"]:active,
   [type="submit"].usa-button-active,
   [type="reset"]:active,
@@ -754,7 +754,7 @@ button,
   .usa-button:visited.usa-button-primary-alt,
   .usa-button-primary:visited.usa-button-primary-alt,
   button.usa-button-primary-alt,
-  [type="button"].usa-button-primary-alt,
+  [type="usa/button"].usa-button-primary-alt,
   [type="submit"].usa-button-primary-alt,
   [type="reset"].usa-button-primary-alt,
   [type="image"].usa-button-primary-alt {
@@ -769,8 +769,8 @@ button,
     .usa-button-primary:visited.usa-button-primary-alt.usa-button-hover,
     button.usa-button-primary-alt:hover,
     button.usa-button-primary-alt.usa-button-hover,
-    [type="button"].usa-button-primary-alt:hover,
-    [type="button"].usa-button-primary-alt.usa-button-hover,
+    [type="usa/button"].usa-button-primary-alt:hover,
+    [type="usa/button"].usa-button-primary-alt.usa-button-hover,
     [type="submit"].usa-button-primary-alt:hover,
     [type="submit"].usa-button-primary-alt.usa-button-hover,
     [type="reset"].usa-button-primary-alt:hover,
@@ -787,8 +787,8 @@ button,
     .usa-button-primary:visited.usa-button-primary-alt.usa-button-active,
     button.usa-button-primary-alt:active,
     button.usa-button-primary-alt.usa-button-active,
-    [type="button"].usa-button-primary-alt:active,
-    [type="button"].usa-button-primary-alt.usa-button-active,
+    [type="usa/button"].usa-button-primary-alt:active,
+    [type="usa/button"].usa-button-primary-alt.usa-button-active,
     [type="submit"].usa-button-primary-alt:active,
     [type="submit"].usa-button-primary-alt.usa-button-active,
     [type="reset"].usa-button-primary-alt:active,
@@ -802,7 +802,7 @@ button,
   .usa-button:visited.usa-button-secondary,
   .usa-button-primary:visited.usa-button-secondary,
   button.usa-button-secondary,
-  [type="button"].usa-button-secondary,
+  [type="usa/button"].usa-button-secondary,
   [type="submit"].usa-button-secondary,
   [type="reset"].usa-button-secondary,
   [type="image"].usa-button-secondary {
@@ -816,8 +816,8 @@ button,
     .usa-button-primary:visited.usa-button-secondary.usa-button-hover,
     button.usa-button-secondary:hover,
     button.usa-button-secondary.usa-button-hover,
-    [type="button"].usa-button-secondary:hover,
-    [type="button"].usa-button-secondary.usa-button-hover,
+    [type="usa/button"].usa-button-secondary:hover,
+    [type="usa/button"].usa-button-secondary.usa-button-hover,
     [type="submit"].usa-button-secondary:hover,
     [type="submit"].usa-button-secondary.usa-button-hover,
     [type="reset"].usa-button-secondary:hover,
@@ -834,8 +834,8 @@ button,
     .usa-button-primary:visited.usa-button-secondary.usa-button-active,
     button.usa-button-secondary:active,
     button.usa-button-secondary.usa-button-active,
-    [type="button"].usa-button-secondary:active,
-    [type="button"].usa-button-secondary.usa-button-active,
+    [type="usa/button"].usa-button-secondary:active,
+    [type="usa/button"].usa-button-secondary.usa-button-active,
     [type="submit"].usa-button-secondary:active,
     [type="submit"].usa-button-secondary.usa-button-active,
     [type="reset"].usa-button-secondary:active,
@@ -848,7 +848,7 @@ button,
   .usa-button:visited.usa-button-gray,
   .usa-button-primary:visited.usa-button-gray,
   button.usa-button-gray,
-  [type="button"].usa-button-gray,
+  [type="usa/button"].usa-button-gray,
   [type="submit"].usa-button-gray,
   [type="reset"].usa-button-gray,
   [type="image"].usa-button-gray {
@@ -862,8 +862,8 @@ button,
     .usa-button-primary:visited.usa-button-gray.usa-button-hover,
     button.usa-button-gray:hover,
     button.usa-button-gray.usa-button-hover,
-    [type="button"].usa-button-gray:hover,
-    [type="button"].usa-button-gray.usa-button-hover,
+    [type="usa/button"].usa-button-gray:hover,
+    [type="usa/button"].usa-button-gray.usa-button-hover,
     [type="submit"].usa-button-gray:hover,
     [type="submit"].usa-button-gray.usa-button-hover,
     [type="reset"].usa-button-gray:hover,
@@ -880,8 +880,8 @@ button,
     .usa-button-primary:visited.usa-button-gray.usa-button-active,
     button.usa-button-gray:active,
     button.usa-button-gray.usa-button-active,
-    [type="button"].usa-button-gray:active,
-    [type="button"].usa-button-gray.usa-button-active,
+    [type="usa/button"].usa-button-gray:active,
+    [type="usa/button"].usa-button-gray.usa-button-active,
     [type="submit"].usa-button-gray:active,
     [type="submit"].usa-button-gray.usa-button-active,
     [type="reset"].usa-button-gray:active,
@@ -894,7 +894,7 @@ button,
   .usa-button:visited.usa-button-outline,
   .usa-button-primary:visited.usa-button-outline,
   button.usa-button-outline,
-  [type="button"].usa-button-outline,
+  [type="usa/button"].usa-button-outline,
   [type="submit"].usa-button-outline,
   [type="reset"].usa-button-outline,
   [type="image"].usa-button-outline {
@@ -910,8 +910,8 @@ button,
     .usa-button-primary:visited.usa-button-outline.usa-button-hover,
     button.usa-button-outline:hover,
     button.usa-button-outline.usa-button-hover,
-    [type="button"].usa-button-outline:hover,
-    [type="button"].usa-button-outline.usa-button-hover,
+    [type="usa/button"].usa-button-outline:hover,
+    [type="usa/button"].usa-button-outline.usa-button-hover,
     [type="submit"].usa-button-outline:hover,
     [type="submit"].usa-button-outline.usa-button-hover,
     [type="reset"].usa-button-outline:hover,
@@ -929,8 +929,8 @@ button,
     .usa-button-primary:visited.usa-button-outline.usa-button-active,
     button.usa-button-outline:active,
     button.usa-button-outline.usa-button-active,
-    [type="button"].usa-button-outline:active,
-    [type="button"].usa-button-outline.usa-button-active,
+    [type="usa/button"].usa-button-outline:active,
+    [type="usa/button"].usa-button-outline.usa-button-active,
     [type="submit"].usa-button-outline:active,
     [type="submit"].usa-button-outline.usa-button-active,
     [type="reset"].usa-button-outline:active,
@@ -948,8 +948,8 @@ button,
     .usa-button-primary:visited.usa-button-outline.usa-button-focus,
     button.usa-button-outline:focus,
     button.usa-button-outline.usa-button-focus,
-    [type="button"].usa-button-outline:focus,
-    [type="button"].usa-button-outline.usa-button-focus,
+    [type="usa/button"].usa-button-outline:focus,
+    [type="usa/button"].usa-button-outline.usa-button-focus,
     [type="submit"].usa-button-outline:focus,
     [type="submit"].usa-button-outline.usa-button-focus,
     [type="reset"].usa-button-outline:focus,
@@ -962,7 +962,7 @@ button,
   .usa-button:visited.usa-button-outline-inverse,
   .usa-button-primary:visited.usa-button-outline-inverse,
   button.usa-button-outline-inverse,
-  [type="button"].usa-button-outline-inverse,
+  [type="usa/button"].usa-button-outline-inverse,
   [type="submit"].usa-button-outline-inverse,
   [type="reset"].usa-button-outline-inverse,
   [type="image"].usa-button-outline-inverse {
@@ -978,8 +978,8 @@ button,
     .usa-button-primary:visited.usa-button-outline-inverse.usa-button-hover,
     button.usa-button-outline-inverse:hover,
     button.usa-button-outline-inverse.usa-button-hover,
-    [type="button"].usa-button-outline-inverse:hover,
-    [type="button"].usa-button-outline-inverse.usa-button-hover,
+    [type="usa/button"].usa-button-outline-inverse:hover,
+    [type="usa/button"].usa-button-outline-inverse.usa-button-hover,
     [type="submit"].usa-button-outline-inverse:hover,
     [type="submit"].usa-button-outline-inverse.usa-button-hover,
     [type="reset"].usa-button-outline-inverse:hover,
@@ -997,8 +997,8 @@ button,
     .usa-button-primary:visited.usa-button-outline-inverse.usa-button-active,
     button.usa-button-outline-inverse:active,
     button.usa-button-outline-inverse.usa-button-active,
-    [type="button"].usa-button-outline-inverse:active,
-    [type="button"].usa-button-outline-inverse.usa-button-active,
+    [type="usa/button"].usa-button-outline-inverse:active,
+    [type="usa/button"].usa-button-outline-inverse.usa-button-active,
     [type="submit"].usa-button-outline-inverse:active,
     [type="submit"].usa-button-outline-inverse.usa-button-active,
     [type="reset"].usa-button-outline-inverse:active,
@@ -1016,8 +1016,8 @@ button,
     .usa-button-primary:visited.usa-button-outline-inverse.usa-button-focus,
     button.usa-button-outline-inverse:focus,
     button.usa-button-outline-inverse.usa-button-focus,
-    [type="button"].usa-button-outline-inverse:focus,
-    [type="button"].usa-button-outline-inverse.usa-button-focus,
+    [type="usa/button"].usa-button-outline-inverse:focus,
+    [type="usa/button"].usa-button-outline-inverse.usa-button-focus,
     [type="submit"].usa-button-outline-inverse:focus,
     [type="submit"].usa-button-outline-inverse.usa-button-focus,
     [type="reset"].usa-button-outline-inverse:focus,
@@ -1030,7 +1030,7 @@ button,
   .usa-button:visited.usa-button-big,
   .usa-button-primary:visited.usa-button-big,
   button.usa-button-big,
-  [type="button"].usa-button-big,
+  [type="usa/button"].usa-button-big,
   [type="submit"].usa-button-big,
   [type="reset"].usa-button-big,
   [type="image"].usa-button-big {
@@ -1511,8 +1511,6 @@ a {
   text-decoration: underline; }
   a:hover, a:active {
     color: #205493; }
-  a:visited {
-    color: #4c2c92; }
   a:focus {
     box-shadow: 0 0 3px #3e94cf, 0 0 7px #3e94cf;
     outline: 0; }
@@ -2375,10 +2373,7 @@ fieldset {
   @media screen and (min-width: 850px) {
     .site-navbar.is-scrolled {
       display: none; } }
-@-moz-document url-prefix() {
-  @media screen and (min-width: 850px) {
-    .site-navbar {
-      padding-top: 1px; } } }
+
 .site-logo {
   float: left;
   line-height: 37px;
@@ -3420,3 +3415,47 @@ pre[class*="language-"] {
         margin-left: -12px;
         position: absolute;
         top: 100%; } }
+
+.headHovers:hover {
+    color: white;
+    font-weight: bold;
+}
+/* Navigation bar background and font*/
+.navigation-bar {
+    /*position:fixed;*/
+    float:none;
+    background: 
+        rgba(35, 91, 122, 0.6);
+    height: 40px;
+    padding: 0px 38px 0 38px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    min-width: 600px;
+    width: 100%;
+    background: 
+        rgba(35, 91, 122, 0.8);
+}
+
+
+.navBarLinks{
+    color: white;
+    font-size: 12px;
+    transition: transform 0.6s ease-in-out;
+    line-height: 2.5;
+    text-decoration: none;
+    font-family: Arial;
+    /*padding-top: 50%;*/
+}
+
+#footerInfo{
+    background-color: #2E5B7A;
+    text-align: center;
+    color: white;
+    height: 160px;
+}

@@ -1,9 +1,11 @@
-<html>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>FHWA RDE Data Visualization Examples</title>
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <title>ITS Public Data Hub Visualization Element 1: Integration</title>
+  <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+  <link rel="icon" href="../img/font-awesome/favicons/favicon.ico" type="image/x-icon">
 
   <link rel="stylesheet" href="../css/styleguide.css">
   <link rel="stylesheet" href="../css/overrides.css">
@@ -19,10 +21,10 @@
 
 <body>
 
-  <header class="usa-site-header" role="banner">
+  <header class="usa-site-header">
     <div class="usa-disclaimer">
       <div class="usa-disclaimer-official">
-      <img src="../img/font-awesome/favicons/favicon-40.png" alt="U.S. flag">
+      <img src="../img/font-awesome/favicons/favicon-40.png" alt="Flag of the United States.">
         <p>An official website of the United States Government</p>
       </div>
     </div>
@@ -30,35 +32,36 @@
       <a class="menu-btn" href="#">Menu</a>
       <div class="site-logo" id="logo">
         <em>
-          <a href="/" accesskey="1" title="Home" aria-label="Home">Research Data Environment: Visualization</a>
+          <a href="/RDE-Visualizations" accesskey="1" title="Home" aria-label="Home">ITS Public Data Hub: Visualization</a>
         </em>
         </div>
       </div>
-
+    <div class="navigation-bar navBarLinks">
+      <a class="headHovers navBarLinks" href="/data">SEARCH HOME</a> <div style="font-size: 15px; padding:3px 5px 7px 7px; display: inline;">|</div>
+      <a class="headHovers navBarLinks" href="/data/visualizations" v-on:click="navBarClick">VISUALIZATIONS</a> <div style="font-size: 15px; padding:3px 7px 3px 7px; display: inline;">|</div>
+      <a class="headHovers navBarLinks" href="/" v-on:click="navBarClick">ITS JPO HOME</a>
+    </div>
       <nav class="site-nav-secondary">
         <ul>
           <li class="home-notcurrent">
-            <a href="/">
-                <svg id="homeicon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"><g display="none"><path display="inline" d="M75.186,68.916c0,0-6.082,0.422-12.528,0.781c-2.398-2.686-2.07-9.439-1.767-12.604   c2.509-2.766,4.729-6.279,6.044-10.264c0.136,0.223,0.29,0.414,0.494,0.523c2.248,1.238,1.689-3.824,1.797-5.959   c0.111-2.137,1.688-4.947,0-4.947c-0.456,0-0.79,0.068-1.047,0.164c-0.311-12.205-3.23-21.717-17.954-21.717   c-15.678,0-17.782,9.639-17.973,21.963c-0.247-0.213-0.685-0.41-1.479-0.41c-1.688,0-0.114,2.811,0,4.947   c0.112,2.135-0.448,7.197,1.799,5.959c0.33-0.184,0.557-0.543,0.711-1.004c1.202,4.068,3.329,7.666,5.796,10.512   c0.312,3.045,0.721,10.061-1.726,12.82c-6.478-0.354-12.541-0.766-12.541-0.766c-5.961,0-10.795,4.832-10.795,10.793v5.396h71.965   v-5.396C85.982,73.748,81.146,68.916,75.186,68.916z"></path></g><g display="none"><polygon display="inline" points="52.996,40.028 52.996,24.036 47.006,24.036 47.006,40.028 14.064,40.028 26.045,75.964    73.957,75.964 85.936,40.028  "></polygon></g><g display="none"><path display="inline" d="M20.015,14.018v71.965h59.971V14.018H20.015z M35.008,75.988h-5.995v-6h5.995V75.988z M35.008,63.994   h-5.995v-5.998h5.995V63.994z M35.008,51.998h-5.995v-5.996h5.995V51.998z M47.001,75.988h-5.994v-6h5.994V75.988z M47.001,63.994   h-5.994v-5.998h5.994V63.994z M47.001,51.998h-5.994v-5.996h5.994V51.998z M58.997,75.988h-5.995v-6h5.995V75.988z M58.997,63.994   h-5.995v-5.998h5.995V63.994z M58.997,51.998h-5.995v-5.996h5.995V51.998z M70.991,75.988h-5.999v-6h5.999V75.988z M70.991,63.994   h-5.999v-5.998h5.999V63.994z M70.991,51.998h-5.999v-5.996h5.999V51.998z M73.99,36.008H26.016V24.014H73.99V36.008z"></path></g><g><polygon points="50,17.02 14.018,47.074 20.1,47.074 20.1,82.984 44.002,82.984 44.002,64.994 55.996,64.994 55.996,82.984    80.07,82.984 80.07,47.074 85.982,47.074  "></polygon><polygon points="77.986,17.016 65.992,17.016 65.992,25.037 77.986,35.008  "></polygon></g></svg>
+            <a href="/RDE-Visualizations">
+                <svg id="homeicon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"><g display="none"><path display="inline" d="M75.186,68.916c0,0-6.082,0.422-12.528,0.781c-2.398-2.686-2.07-9.439-1.767-12.604   c2.509-2.766,4.729-6.279,6.044-10.264c0.136,0.223,0.29,0.414,0.494,0.523c2.248,1.238,1.689-3.824,1.797-5.959   c0.111-2.137,1.688-4.947,0-4.947c-0.456,0-0.79,0.068-1.047,0.164c-0.311-12.205-3.23-21.717-17.954-21.717   c-15.678,0-17.782,9.639-17.973,21.963c-0.247-0.213-0.685-0.41-1.479-0.41c-1.688,0-0.114,2.811,0,4.947   c0.112,2.135-0.448,7.197,1.799,5.959c0.33-0.184,0.557-0.543,0.711-1.004c1.202,4.068,3.329,7.666,5.796,10.512   c0.312,3.045,0.721,10.061-1.726,12.82c-6.478-0.354-12.541-0.766-12.541-0.766c-5.961,0-10.795,4.832-10.795,10.793v5.396h71.965   v-5.396C85.982,73.748,81.146,68.916,75.186,68.916z"></path></g><g display="none"><polygon display="inline" points="52.996,40.028 52.996,24.036 47.006,24.036 47.006,40.028 14.064,40.028 26.045,75.964    73.957,75.964 85.936,40.028  "></polygon></g><g display="none"><path display="inline" d="M20.015,14.018v71.965h59.971V14.018H20.015z M35.008,75.988h-5.995v-6h5.995V75.988z M35.008,63.994   h-5.995v-5.998h5.995V63.994z M35.008,51.998h-5.995v-5.996h5.995V51.998z M47.001,75.988h-5.994v-6h5.994V75.988z M47.001,63.994   h-5.994v-5.998h5.994V63.994z M47.001,51.998h-5.994v-5.996h5.994V51.998z M58.997,75.988h-5.995v-6h5.995V75.988z M58.997,63.994   h-5.995v-5.998h5.995V63.994z M58.997,51.998h-5.995v-5.996h5.995V51.998z M70.991,75.988h-5.999v-6h5.999V75.988z M70.991,63.994   h-5.999v-5.998h5.999V63.994z M70.991,51.998h-5.999v-5.996h5.999V51.998z M73.99,36.008H26.016V24.014H73.99V36.008z"></path></g><g><polygon points="50,17.02 14.018,47.074 20.1,47.074 20.1,82.984 44.002,82.984 44.002,64.994 55.996,64.994 55.996,82.984    80.07,82.984 80.07,47.074 85.982,47.074  "></polygon><polygon points="77.986,17.016 65.992,17.016 65.992,25.037 77.986,35.008  "></polygon></g><title>This link goes back to the visualizations home page.</title></svg>
             </a> 
           </li> 
           <li>
             <a href="." class="usa-current">1. INTEGRATION</a>
           </li>
           <li>
-            <a href="/element2/">2. COMMUNICATION</a>
+            <a href="/RDE-Visualizations/element2/">2. COMMUNICATION</a>
           </li>
           <li>
-            <a href="/element3/">3. WEATHER</a>
+            <a href="/RDE-Visualizations/element3/">3. WEATHER</a>
           </li>
           <li>
-            <a href="/element4/">4. INTERVENTIONS</a>
+            <a href="/RDE-Visualizations/element4/">4. INTERVENTIONS</a>
           </li>
           <li>
-            <a href="/element5/">5. EXPLORE THE RDE</a>
-          </li>
-          <li>
-            <a href="/element6/">6. BREADTH OF DATA</a>
+            <a href="/RDE-Visualizations/element6/">5. BREADTH OF DATA</a>
           </li>
         </ul>
       </nav>
@@ -71,25 +74,22 @@
     <nav>
       <ul class="usa-sidenav-list">
         <li>
-          <a href="/">Home</a>
+          <a href="/RDE-Visualizations">Home</a>
         </li>
         <li>
-          <a class="usa-current" href="/element1/">1. INTEGRATION</a>
+          <a class="usa-current" href="/RDE-Visualizations/element1/">1. INTEGRATION</a>
         </li>
         <li>
-          <a href="/element2/">2. COMMUNICATION</a>
+          <a href="/RDE-Visualizations/element2/">2. COMMUNICATION</a>
         </li>
         <li>
-          <a href="/element3/">3. WEATHER</a>
+          <a href="/RDE-Visualizations/element3/">3. WEATHER</a>
         </li>
         <li>
-          <a href="/element4/">4. INTERVENTIONS</a>
+          <a href="/RDE-Visualizations/element4/">4. INTERVENTIONS</a>
         </li>
         <li>
-          <a href="/element5/">5. EXPLORE THE RDE</a>
-        </li>
-        <li>
-          <a href="/element6/">6. BREADTH OF DATA</a>
+          <a href="/RDE-Visualizations/element6/">5. BREADTH OF DATA</a>
         </li>
       </ul>
     </nav>
@@ -103,10 +103,9 @@
   <!-- Styleguide-content Section -->
   <div class="styleguide-content usa-content" id="dashboard-wrapper">
 
-
     <!-- Banner section -->
     <header>
-      <p class="site-subheading">RDE DATA VISUALIZATION</p>
+      <p class="site-subheading">ITS PUBLIC DATA HUB VISUALIZATION</p>
       <h1 id="getting-started">Characteristics of Transportation Systems</h1>
     </header>
       <p class="usa-font-lead">The Pasadena Data Environment consists primarily of network and network
@@ -161,18 +160,18 @@
     <!-- END Banner section -->
 
     <div id="loading-bg" class="loading">
-      <img id="loading-spinner" src="../img/loading.svg" class="loading"></img>
+      <img id="loading-spinner" src="../img/loading.svg" alt="The visualization is currently loading." class="loading">
     </div>
     <canvas id="babylon-viz"></canvas>
     <div id="babylon-legend-div">
-      <img id="babylon-legend" src="img/El1_legend.svg"></img>
+      <img id="babylon-legend" alt="Interactive graphic shows traffic volume and percent of freeflow speed on Pasadena network over time. Volume and speed decrease substantially during peak travel times." src="img/El1_legend.svg">
     </div>
 
     <h2 class="usa-heading">Video Walkthrough</h2>
     <p>See the video below for a walkthrough of this visualization in the event
     that your browser doesn't support WebGL.</p>
     <div class="vid-embed">
-      <iframe src="https://player.vimeo.com/video/184231709" width="100%" height="498" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <iframe src="https://player.vimeo.com/video/184231709" style="width:100%;border:none;" height="498" title="Embedded video walkthrough of the visualization above for browsers that don't support WebGL." allowfullscreen></iframe>
     </div>
 
 
@@ -197,49 +196,17 @@
 <!-- END Main Content Section -->
 
 <!-- FOOTER BEGINS HERE -->
-  <footer class="usa-footer usa-footer-slim" role="contentinfo">
-
-    <div class="usa-footer-primary-section">
-      <div class="usa-grid-full">
-        <nav class="usa-footer-nav usa-width-one-whole">
-          <ul class="usa-unstyled-list">
-            <li class="usa-width-one-half usa-footer-primary-content">
-              <a class="usa-footer-primary-link" href="http://www.fhwa.dot.gov/">Federal Highway Administration</a>
-            </li>
-
-            <li class="usa-width-one-third usa-footer-primary-content">
-              <a class="usa-footer-primary-link" href="https://www.its-rde.net/home">Research Data Environment</a>
-            </li>
-            <li class="usa-width-one-half usa-footer-primary-content">
-                (202) 366-4000<br />
-                <a href="mailto:Web.Master@dot.gov">Contact Webmaster</a>
-            </li>
-            <li class="usa-width-one-half usa-footer-primary-content">
-              <a class="usa-footer-primary-link" href="https://wxde.fhwa.dot.gov/">Weather Data Environment</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="usa-width-one-third">
-          &nbsp;
-        </div>
-      </div>
+<div id="footerInfo" style="padding-top: 20px;">
+    
+    <div style="display:inline; font-size:50px; font-weight:100; text-align:center">
+        <img src="../img/icons/dot_logo.png" style="height: 30px;margin-right: 3px;" alt="DOT Logo" /> 
+        |
+        <img src="../img/icons/ITS_JPO.png" style="height: 27px" alt="ITS JPO Logo" /> 
     </div>
-
-    <div class="usa-footer-secondary_section">
-      <div class="usa-grid">
-        <div class="usa-footer-logo">
-          <img class="usa-footer-slim-logo-img" src="../img/dot.png" alt="Logo image">
-          <h3 class="usa-footer-slim-logo-heading">US Federal Highway Administration</h3>
-        </div>
-      </div>
-    </div>
-    <div class="usa-disclaimer">
-      <div class="usa-disclaimer-official footer">
-        <p>Created in 2016 by <a href="http://www.kittelson.com/">Kittelson &amp; Associates</a>, <a href="https://itre.ncsu.edu/">ITRE</a>, and <a href="http://www.rti.org">RTI International</a>.</p>
-      </div>
-    </div>
-  </footer>
-  <!-- FOOTER ENDS HERE -->
+    <p style="font-family:Arial;font-weight: bold;font-size:12px;margin:0;padding:0;">Questions? Contact Us</p>
+    <p id="contactEmail" style="font-family:Arial;font-size:12px;line-height:18px;margin:0;padding:0;">data.itsjpo@dot.gov</p>
+</div>
+<!-- FOOTER ENDS HERE -->
 
   <!-- vendor javascript -->
   <script src="../js/babylonjs/babylon.js"></script>
