@@ -5,7 +5,7 @@
 var initRoadNetwork = function (scene, map) {
     var network = {};
 
-    var networkDefFile = 'data/highway_links_manual.geojson';
+    var networkDefFile = 'data/highway_links_manual_geo.json';
 
     var dataLoaded = false,
         // Keys: our unique link IDs, values: array of meshes/link objects that correspond
